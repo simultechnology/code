@@ -7,6 +7,7 @@ fn main() {
 
    while (Instant::now() - start) < time_limit {   //<4>
        count += 1;
+      // println!("{}", count);
    }
    println!("{}", count);
 }

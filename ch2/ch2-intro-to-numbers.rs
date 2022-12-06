@@ -1,6 +1,7 @@
 fn main() {
   let twenty = 20;                       //<1>
   let twenty_one: i32 = 21;              //<2>
+  println!("{}", twenty_one.pow(2));
   let twenty_two = 22i32;                //<3>
 
   let addition = twenty + twenty_one + twenty_two;
